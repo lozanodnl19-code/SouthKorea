@@ -1,0 +1,403 @@
+/* ==============================
+   CONFIGURACIÓN GENERAL
+============================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#ffffff,#eef4ff,#fff3f3);
+
+    min-height:100vh;
+
+    color:#222;
+
+}
+/* ==============================
+   HEADER
+============================== */
+
+header{
+
+    text-align:center;
+
+    padding:50px;
+
+}
+
+header h1{
+
+    font-size:55px;
+
+    color:#0047A0;
+
+    letter-spacing:5px;
+
+    text-shadow:0 5px 10px rgba(0,0,0,.15);
+
+}
+
+header p{
+
+    margin-top:10px;
+
+    font-size:20px;
+
+    color:#555;
+
+}
+/* ==============================
+BOTONES
+============================== */
+
+.buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    margin-bottom:40px;
+
+}
+.buttons button{
+
+    background:#0047A0;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+.buttons button:hover{
+
+    background:#CD2E3A;
+
+    transform:scale(1.05);
+
+}
+/*==============================
+        CONTENIDO
+==============================*/
+
+.content{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+.content h2{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+    color:#0047A0;
+
+    font-size:38px;
+
+}
+.cards{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+.card{
+
+    width:300px;
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+    transition:.4s;
+
+}
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+.card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+.card h3{
+
+    margin:20px;
+
+    color:#CD2E3A;
+
+}
+.card p{
+
+    margin:20px;
+
+    line-height:1.6;
+
+    color:#555;
+
+}
+footer{
+
+    text-align:center;
+
+    margin:60px;
+
+    color:gray;
+
+}
+.hidden{
+    display:none;
+}
+.subtitle{
+
+text-align:center;
+
+color:#555;
+
+margin-bottom:30px;
+
+}
+
+
+
+.location-box{
+
+display:flex;
+
+justify-content:center;
+
+gap:40px;
+
+background:white;
+
+padding:40px;
+
+border-radius:30px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+flex-wrap:wrap;
+
+}
+
+
+
+.about-korea{
+
+width:450px;
+
+text-align:center;
+
+}
+
+
+
+.seoul-img{
+
+width:100%;
+
+height:250px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+}
+
+
+
+.about-korea h3{
+
+color:#0047A0;
+
+margin:20px;
+
+}
+
+
+
+.about-korea p{
+
+color:#555;
+
+line-height:1.6;
+
+}
+
+
+
+.data-box{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:15px;
+
+margin:25px;
+
+}
+
+
+
+.data-box div{
+
+background:#eef4ff;
+
+padding:15px;
+
+border-radius:15px;
+
+}
+
+
+
+.about-korea button{
+
+background:linear-gradient(90deg,#CD2E3A,#0047A0);
+
+color:white;
+
+border:none;
+
+padding:15px 30px;
+
+border-radius:30px;
+
+cursor:pointer;
+
+font-size:17px;
+
+}
+
+
+
+.places{
+
+width:450px;
+
+}
+
+
+
+.places h3{
+
+color:#0047A0;
+
+text-align:center;
+
+}
+
+
+
+.place{
+
+display:flex;
+
+gap:15px;
+
+background:#fafafa;
+
+padding:15px;
+
+margin:15px;
+
+border-radius:20px;
+
+}
+
+
+
+.place img{
+
+width:120px;
+
+height:90px;
+
+object-fit:cover;
+
+border-radius:15px;
+
+}
+
+
+
+.place h4{
+
+color:#0047A0;
+
+}
+
+
+
+.place button{
+
+background:#CD2E3A;
+
+color:white;
+
+border:none;
+
+padding:8px 15px;
+
+border-radius:20px;
+
+cursor:pointer;
+
+}
+/* ==============================
+   KOREAN FLAG
+============================== */
+
+
+.flag{
+
+    width:140px;
+
+    height:auto;
+
+    display:block;
+
+    margin:0 auto 25px;
+
+    border-radius:10px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+}
